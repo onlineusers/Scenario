@@ -11,31 +11,31 @@ Example - JOIN_LOGGER = os.environ.get("EVENT_LOGS", "-100828822882")
 
 
 # Token from botfather 
-TOKEN = os.environ.get("TOKEN", "")
+TOKEN = os.environ.get("TOKEN", "5652155718:AAHZXuBzmMoxJuO9GdkkubVctUjVqCmtMSU")
 
 # Make a new group then add @ScenarioXbot then send /id and fill id here.
-JOIN_LOGGER = os.environ.get("EVENT_LOGS", "")
+JOIN_LOGGER = os.environ.get("EVENT_LOGS", "1001760228914")
 
 # only one # don't remove other one.
-OWNER_ID = int(os.environ.get("OWNER_ID", "2142595466", "fill_your_id_here_")) 
+OWNER_ID = int(os.environ.get("OWNER_ID", "2142595466", "1550316511")) 
 
 # only one # don't remove other one.
-OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "CoderX", "Your_username_here")
+OWNER_USERNAME = os.environ.get("OWNER_USERNAME", "CoderX", "Tamilchatunban")
 
 # can add multiple with spaces
-DRAGONS = {int(x) for x in os.environ.get("DRAGONS", "").split()}
+DRAGONS = {int(x) for x in os.environ.get("DRAGONS", "1550316511").split()}
 
 # can add multiple with spaces
-DEV_USERS = {int(x) for x in os.environ.get("DEV_USERS", "").split()}
+DEV_USERS = {int(x) for x in os.environ.get("DEV_USERS", "1550316511").split()}
 
 # can add multiple with spaces
-DEMONS = {int(x) for x in os.environ.get("DEMONS", "").split()} 
+DEMONS = {int(x) for x in os.environ.get("DEMONS", "1550316511").split()} 
 
 # can add multiple with spaces
-WOLVES = {int(x) for x in os.environ.get("WOLVES", "").split()}
+WOLVES = {int(x) for x in os.environ.get("WOLVES", "1550316511").split()}
 
 # can add multiple with spaces
-TIGERS = {int(x) for x in os.environ.get("TIGERS", "").split()}
+TIGERS = {int(x) for x in os.environ.get("TIGERS", "1550316511").split()}
 
 # Should I show profile pic of user in /info command? 
 # default value is true
